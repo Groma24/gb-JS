@@ -1,0 +1,33 @@
+<meta chaset='utf-8'>
+<script>
+	var answer = prompt('Введите какое из 4-х арефметических операций вы хотите выполнить(+, -, *, /): ')
+	function addition(a, b){
+		return a + b
+	}
+
+	function subtraction(a, b){
+		return a - b
+	}
+
+	function multiplication(a, b){
+		return a * b
+	}
+
+	function division(a, b){
+		return a / b
+	}
+
+	if (answer == '+'){
+		alert(addition(5, 4))
+	}else if (answer == '-'){
+		alert(subtraction(5, 4))
+	}else if (answer == '*'){
+		alert(multiplication(5, 4))
+	}else if (answer == '/'){
+		alert(division(5, 4))
+	}else {
+		alert("Неправильный ввод!!!")
+	}
+
+
+</script>
